@@ -22,7 +22,7 @@ export function Tasks({ tasks, onTaskClick, onDeleteTaskClick }) {
               task.iscompleted && "line-through"
             }`}
           >
-            {task.tittle}
+            {task.title}
           </button>
           <Button onClick={() => onSeeDetailsClick(task)}>
             <ChevronRightIcon />
